@@ -1,0 +1,29 @@
+# Python environment
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# dbt artifacts
+dbt_stocks/logs/
+dbt_stocks/target/
+dbt_stocks/dbt_packages/
+dbt_stocks/profiles.yml
+
+# Docker
+.docker/
+logs/
+plugins/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Power BI temporary files
+*.pbix.copy
+*.pbit
+
+# OS generated files
+.DS_Store
+Thumbs.db
